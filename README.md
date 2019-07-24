@@ -28,10 +28,10 @@ PROD_DB={{the URI provided by mongoDB could providers, e.g. Mlab}}
 ```
 - Run the application by starting the client and server separately:
 ```
-cd server; npm start
+npm run server
 ```
 ```
-cd client; npm start
+npm run client
 ```
 
 This will create the database locally. By running the server with the command:

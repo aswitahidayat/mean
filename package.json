@@ -9,7 +9,9 @@
     "install:dependencies": "npm run install:server && npm run install:client",
     "buildclient": "cd client && npm run build && cd ../",
     "install:client": "cd client && npm i && cd ../",
-    "install:server": "cd server && npm install && cd ../"
+    "install:server": "cd server && npm install && cd ../",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start"
   },
   "repository": {
     "type": "git",
